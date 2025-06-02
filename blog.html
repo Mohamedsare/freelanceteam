@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez nos articles sur le développement web, le design et le marketing digital. Des conseils et actualités pour rester à la pointe de l'innovation.">
+    <title>Blog | Freelance Team</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="logo">Freelance<span>Team</span></a>
+            
+            <!-- Bouton menu burger -->
+            <button class="menu-toggle" aria-label="Ouvrir le menu">
+                <span class="hamburger"></span>
+            </button>
+            
+            <!-- Menu principal -->
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Menu mobile -->
+    <div class="mobile-menu">
+        <button class="close-menu" aria-label="Fermer le menu">
+            <i class="fas fa-times"></i>
+        </button>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="blog.html" class="active">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+
+    <!-- Hero Section Blog -->
+    <section class="blog-hero">
+        <div class="blog-hero-content">
+            <h1>Notre Blog</h1>
+            <p>Découvrez nos articles et restez informé des dernières tendances du digital</p>
+        </div>
+    </section>
+
+    <!-- Section Recherche et Catégories -->
+    <section class="blog-search">
+        <div class="container">
+            <div class="search-container">
+                <div class="search-box">
+                    <input type="text" placeholder="Rechercher un article...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="category-tags">
+                    <button class="category-tag active">Tous</button>
+                    <button class="category-tag">Développement</button>
+                    <button class="category-tag">Design</button>
+                    <button class="category-tag">Marketing</button>
+                    <button class="category-tag">Tendances</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Articles Principaux -->
+    <section class="blog-featured">
+        <div class="container">
+            <div class="featured-grid">
+                <!-- Article Principal -->
+                <article class="featured-main">
+                    <div class="article-image">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80" alt="Article Principal">
+                        <div class="article-category">Développement</div>
+                    </div>
+                    <div class="article-content">
+                        <h2>Les tendances du développement web en 2024</h2>
+                        <p class="article-meta">
+                            <span><i class="far fa-calendar"></i> 15 Mars 2024</span>
+                            <span><i class="far fa-clock"></i> 5 min de lecture</span>
+                        </p>
+                        <p class="article-excerpt">Découvrez les dernières innovations et technologies qui façonnent l'avenir du développement web...</p>
+                        <a href="#" class="read-more">Lire l'article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Articles Secondaires -->
+                <article class="featured-secondary">
+                    <div class="article-image">
+                        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1464&q=80" alt="Article Secondaire">
+                        <div class="article-category">Design</div>
+                    </div>
+                    <div class="article-content">
+                        <h3>L'importance de l'UX dans le design moderne</h3>
+                        <p class="article-meta">
+                            <span><i class="far fa-calendar"></i> 12 Mars 2024</span>
+                            <span><i class="far fa-clock"></i> 4 min de lecture</span>
+                        </p>
+                    </div>
+                </article>
+
+                <article class="featured-secondary">
+                    <div class="article-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Article Secondaire">
+                        <div class="article-category">Marketing</div>
+                    </div>
+                    <div class="article-content">
+                        <h3>Stratégies de marketing digital efficaces</h3>
+                        <p class="article-meta">
+                            <span><i class="far fa-calendar"></i> 10 Mars 2024</span>
+                            <span><i class="far fa-clock"></i> 6 min de lecture</span>
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Articles Récents -->
+    <section class="blog-recent">
+        <div class="container">
+            <h2 class="section-title">Articles Récents</h2>
+            <div class="articles-grid">
+                <!-- Article 1 -->
+                <article class="blog-card">
+                    <div class="article-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1415&q=80" alt="Article">
+                        <div class="article-category">Tendances</div>
+                    </div>
+                    <div class="article-content">
+                        <h3>L'impact de l'IA sur le développement web</h3>
+                        <p class="article-meta">
+                            <span><i class="far fa-calendar"></i> 8 Mars 2024</span>
+                            <span><i class="far fa-clock"></i> 7 min de lecture</span>
+                        </p>
+                        <p class="article-excerpt">Comment l'intelligence artificielle transforme la façon dont nous développons et concevons les sites web...</p>
+                        <a href="#" class="read-more">Lire l'article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Article 2 -->
+                <article class="blog-card">
+                    <div class="article-image">
+                        <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1536&q=80" alt="Article">
+                        <div class="article-category">Design</div>
+                    </div>
+                    <div class="article-content">
+                        <h3>Les principes du design minimaliste</h3>
+                        <p class="article-meta">
+                            <span><i class="far fa-calendar"></i> 5 Mars 2024</span>
+                            <span><i class="far fa-clock"></i> 5 min de lecture</span>
+                        </p>
+                        <p class="article-excerpt">Comment créer des interfaces élégantes et efficaces en suivant les principes du minimalisme...</p>
+                        <a href="#" class="read-more">Lire l'article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Article 3 -->
+                <article class="blog-card">
+                    <div class="article-image">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="Article">
+                        <div class="article-category">Marketing</div>
+                    </div>
+                    <div class="article-content">
+                        <h3>SEO : Les meilleures pratiques en 2024</h3>
+                        <p class="article-meta">
+                            <span><i class="far fa-calendar"></i> 3 Mars 2024</span>
+                            <span><i class="far fa-clock"></i> 8 min de lecture</span>
+                        </p>
+                        <p class="article-excerpt">Optimisez votre visibilité en ligne avec ces stratégies SEO modernes et efficaces...</p>
+                        <a href="#" class="read-more">Lire l'article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <button class="pagination-btn active">1</button>
+                <button class="pagination-btn">2</button>
+                <button class="pagination-btn">3</button>
+                <button class="pagination-btn next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Newsletter -->
+    <section class="blog-newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Restez informé</h2>
+                <p>Recevez nos derniers articles et actualités directement dans votre boîte mail</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Votre adresse email">
+                    <button type="submit" class="btn btn-primary">S'abonner</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>FreelanceTeam</h3>
+                <p>Une équipe de professionnels passionnés réunis pour offrir des solutions digitales sur mesure.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Liens rapides</h3>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="about.html">À propos</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-services">
+                <h3>Nos services</h3>
+                <ul>
+                    <li><a href="#">Développement Web</a></li>
+                    <li><a href="#">Design UI/UX</a></li>
+                    <li><a href="#">Marketing Digital</a></li>
+                    <li><a href="#">Stratégie SEO</a></li>
+                    <li><a href="#">Application Mobile</a></li>
+                    <li><a href="#">Consulting</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contactez-nous</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Ouagadougou, Burkina Faso</li>
+                    <li><i class="fas fa-phone"></i> +226 64 71 20 44</li>
+                    <li><i class="fas fa-envelope"></i> contactbf@freelanceteam.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span class="current-year"></span> FreelanceTeam. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Bouton retour en haut -->
+    <button type="button" id="backToTop" class="back-to-top" aria-label="Retour en haut">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html> 

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez notre portfolio de projets web, design et marketing digital. Des réalisations créatives et innovantes pour nos clients.">
+    <title>Portfolio | Freelance Team</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="logo">Freelance<span>Team</span></a>
+            
+            <!-- Bouton menu burger -->
+            <button class="menu-toggle" aria-label="Ouvrir le menu">
+                <span class="hamburger"></span>
+            </button>
+            
+            <!-- Menu principal -->
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Menu mobile -->
+    <div class="mobile-menu">
+        <button class="close-menu" aria-label="Fermer le menu">
+            <i class="fas fa-times"></i>
+        </button>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html" class="active">Portfolio</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+
+    <!-- Hero Section Portfolio -->
+    <section class="portfolio-hero">
+        <div class="portfolio-hero-content">
+            <h1>Notre Portfolio</h1>
+            <p>Découvrez nos réalisations et projets créatifs</p>
+        </div>
+    </section>
+
+    <!-- Section Filtres -->
+    <section class="portfolio-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="marketing">Marketing</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section class="portfolio-projects">
+        <div class="container">
+            <div class="projects-grid">
+                <!-- Projet 1 -->
+                <div class="project-item" data-category="web">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80" alt="Projet E-commerce">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>E-commerce Luxe</h3>
+                                <p>Site de vente en ligne pour une marque de mode</p>
+                                <div class="project-tags">
+                                    <span>Web</span>
+                                    <span>E-commerce</span>
+                                </div>
+                                <a href="#" class="project-link" data-project="project1">
+                                    <i class="fas fa-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 2 -->
+                <div class="project-item" data-category="mobile">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1536&q=80" alt="Application Mobile">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>FitApp</h3>
+                                <p>Application de fitness personnalisée</p>
+                                <div class="project-tags">
+                                    <span>Mobile</span>
+                                    <span>UI/UX</span>
+                                </div>
+                                <a href="#" class="project-link" data-project="project2">
+                                    <i class="fas fa-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 3 -->
+                <div class="project-item" data-category="design">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="Identité Visuelle">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Rebranding Startup</h3>
+                                <p>Identité visuelle complète</p>
+                                <div class="project-tags">
+                                    <span>Design</span>
+                                    <span>Branding</span>
+                                </div>
+                                <a href="#" class="project-link" data-project="project3">
+                                    <i class="fas fa-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 4 -->
+                <div class="project-item" data-category="marketing">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Campagne Marketing">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Campagne Digital</h3>
+                                <p>Stratégie marketing complète</p>
+                                <div class="project-tags">
+                                    <span>Marketing</span>
+                                    <span>Social Media</span>
+                                </div>
+                                <a href="#" class="project-link" data-project="project4">
+                                    <i class="fas fa-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 5 -->
+                <div class="project-item" data-category="web">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1541462608143-67571c6738dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Site Vitrine">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Site Vitrine Premium</h3>
+                                <p>Design moderne et élégant</p>
+                                <div class="project-tags">
+                                    <span>Web</span>
+                                    <span>Design</span>
+                                </div>
+                                <a href="#" class="project-link" data-project="project5">
+                                    <i class="fas fa-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 6 -->
+                <div class="project-item" data-category="mobile">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Application Mobile">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Food Delivery App</h3>
+                                <p>Application de livraison de repas</p>
+                                <div class="project-tags">
+                                    <span>Mobile</span>
+                                    <span>UI/UX</span>
+                                </div>
+                                <a href="#" class="project-link" data-project="project6">
+                                    <i class="fas fa-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Projet -->
+    <div class="project-modal">
+        <div class="modal-content">
+            <button class="modal-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body">
+                <!-- Le contenu sera chargé dynamiquement via JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Section CTA -->
+    <section class="portfolio-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Vous avez un projet en tête ?</h2>
+                <p>Transformons vos idées en réalité. Contactez-nous pour discuter de votre projet.</p>
+                <a href="#" class="btn btn-primary">Démarrer un projet</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>FreelanceTeam</h3>
+                <p>Une équipe de professionnels passionnés réunis pour offrir des solutions digitales sur mesure.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Liens rapides</h3>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="about.html">À propos</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-services">
+                <h3>Nos services</h3>
+                <ul>
+                    <li><a href="#">Développement Web</a></li>
+                    <li><a href="#">Design UI/UX</a></li>
+                    <li><a href="#">Marketing Digital</a></li>
+                    <li><a href="#">Stratégie SEO</a></li>
+                    <li><a href="#">Application Mobile</a></li>
+                    <li><a href="#">Consulting</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contactez-nous</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Ouagadougou, Burkina Faso</li>
+                    <li><i class="fas fa-phone"></i> +226 64 71 20 44</li>
+                    <li><i class="fas fa-envelope"></i> contactbf@freelanceteam.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span class="current-year"></span> FreelanceTeam. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Bouton retour en haut -->
+    <button type="button" id="backToTop" class="back-to-top" aria-label="Retour en haut">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html> 

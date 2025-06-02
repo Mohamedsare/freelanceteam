@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Freelance Team est une équipe de créateurs numériques passionnés qui créent des expériences numériques mémorables pour nos clients.">
+    <title>Freelance Team | Créateurs Numériques</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <!-- Cible pour le défilement -->
+    <div id="top"></div>
+
+    <!-- Barre de navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="logo">Freelance<span>Team</span></a>
+            
+            <!-- Bouton menu burger -->
+            <button class="menu-toggle" aria-label="Ouvrir le menu">
+                <span class="hamburger"></span>
+            </button>
+            
+            <!-- Menu principal -->
+            <ul class="nav-links">
+                <li><a href="#" class="active">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Menu mobile -->
+    <div class="mobile-menu">
+        <button class="close-menu" aria-label="Fermer le menu">
+            <i class="fas fa-times"></i>
+        </button>
+        <ul>
+            <li><a href="#" class="active">Accueil</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="services.html  ">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-slider">
+            <!-- Slide 1 -->
+            <div class="hero-slide active">
+                <div class="hero-content">
+                    <h1 class="hero-title">Nous créons des expériences numériques mémorables</h1>
+                    <p class="hero-subtitle">Une équipe de freelances passionnés réunis pour donner vie à vos projets</p>
+                    <div class="hero-buttons">
+                        <a href="#" class="btn btn-primary">Nos réalisations</a>
+                        <a href="#" class="btn btn-secondary">Contactez-nous</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="equipe.png" alt="Équipe Freelance">
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="hero-slide">
+                <div class="hero-content">
+                    <h1 class="hero-title">Des solutions digitales innovantes</h1>
+                    <p class="hero-subtitle">Transformez vos idées en réalité avec notre expertise technique</p>
+                    <div class="hero-buttons">
+                        <a href="#" class="btn btn-primary">Découvrir nos services</a>
+                        <a href="#" class="btn btn-secondary">En savoir plus</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="img.jpg" alt="Solutions Digitales">
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="hero-slide">
+                <div class="hero-content">
+                    <h1 class="hero-title">Une approche sur mesure</h1>
+                    <p class="hero-subtitle">Des stratégies personnalisées pour atteindre vos objectifs</p>
+                    <div class="hero-buttons">
+                        <a href="#" class="btn btn-primary">Nos méthodes</a>
+                        <a href="#" class="btn btn-secondary">Discutons-en</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="img2.jpg" alt="Approche Personnalisée">
+                </div>
+            </div>
+
+            <!-- Contrôles du carousel -->
+            <div class="hero-controls">
+                <button class="hero-prev" aria-label="Slide précédent">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="hero-next" aria-label="Slide suivant">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <!-- Indicateurs -->
+            <div class="hero-indicators">
+                <button class="hero-indicator active" aria-label="Slide 1"></button>
+                <button class="hero-indicator" aria-label="Slide 2"></button>
+                <button class="hero-indicator" aria-label="Slide 3"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Services -->
+    <section class="services">
+        <div class="section-header">
+            <h2>Nos Services</h2>
+            <p>Nous offrons une gamme complète de services pour répondre à tous vos besoins numériques</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Développement Web</h3>
+                <p>Création de sites web sur mesure, rapides et optimisés pour le SEO.</p>
+                <a href="#" class="service-link">En savoir plus <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <h3>Design UI/UX</h3>
+                <p>Interfaces intuitives et esthétiques pour une expérience utilisateur optimale.</p>
+                <a href="#" class="service-link">En savoir plus <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Marketing Digital</h3>
+                <p>Stratégies digitales personnalisées pour booster votre visibilité en ligne.</p>
+                <a href="#" class="service-link">En savoir plus <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Portfolio -->
+    <section class="portfolio">
+        <div class="section-header">
+            <h2>Nos Réalisations</h2>
+            <p>Découvrez une sélection de nos projets les plus récents</p>
+        </div>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80" alt="Projet 1">
+                <div class="portfolio-overlay">
+                    <h3>Site E-commerce</h3>
+                    <p>Boutique en ligne pour une marque de mode</p>
+                    <a href="#" class="portfolio-link">Voir le projet</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1536&q=80" alt="Projet 2">
+                <div class="portfolio-overlay">
+                    <h3>Application Mobile</h3>
+                    <p>Solution de fitness personnalisée</p>
+                    <a href="#" class="portfolio-link">Voir le projet</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="Projet 3">
+                <div class="portfolio-overlay">
+                    <h3>Identité Visuelle</h3>
+                    <p>Rebranding complet pour une startup</p>
+                    <a href="#" class="portfolio-link">Voir le projet</a>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-cta">
+            <a href="#" class="btn btn-primary">Voir tout notre portfolio</a>
+        </div>
+    </section>
+
+    <!-- Section Témoignages -->
+    <section class="testimonials">
+        <div class="section-header">
+            <h2>Ils nous ont fait confiance</h2>
+            <p>Découvrez ce que nos clients disent de notre collaboration</p>
+        </div>
+        <div class="testimonial-slider">
+            <div class="testimonial-slide active">
+                <div class="testimonial-content">
+                    <p>"L'équipe a su comprendre nos besoins et livrer un site web qui dépasse nos attentes. Leur professionnalisme et leur réactivité ont fait toute la différence."</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Client 1">
+                        <div>
+                            <h4>Sarah Dupont</h4>
+                            <span>CEO, EcoMarket</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-slide">
+                <div class="testimonial-content">
+                    <p>"Le redesign de notre application mobile a considérablement amélioré l'engagement de nos utilisateurs. Un travail remarquable et des conseils précieux."</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client 2">
+                        <div>
+                            <h4>Thomas Leroy</h4>
+                            <span>Directeur Technique, FitApp</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-slide">
+                <div class="testimonial-content">
+                    <p>"Nous collaborons avec cette équipe depuis 2 ans et chaque projet est une réussite. Leur polyvalence et leur créativité sont impressionnantes."</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Client 3">
+                        <div>
+                            <h4>Julie Martin</h4>
+                            <span>Directrice Marketing, LuxeParis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section CTA -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2>Prêt à donner vie à votre projet ?</h2>
+            <p>Contactez-nous pour discuter de vos besoins et obtenir un devis personnalisé.</p>
+            <a href="#" class="btn btn-primary">Demander un devis</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>FreelanceTeam</h3>
+                <p>Une équipe de professionnels passionnés réunis pour offrir des solutions digitales sur mesure.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Liens rapides</h3>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-services">
+                <h3>Nos services</h3>
+                <ul>
+                    <li><a href="#">Développement Web</a></li>
+                    <li><a href="#">Design UI/UX</a></li>
+                    <li><a href="#">Marketing Digital</a></li>
+                    <li><a href="#">Stratégie SEO</a></li>
+                    <li><a href="#">Application Mobile</a></li>
+                    <li><a href="#">Consulting</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contactez-nous</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Ouagadougou, Burkina Faso</li>
+                    <li><i class="fas fa-phone"></i> +226 64 71 20 44</li>
+                    <li><i class="fas fa-envelope"></i> contactbf@freelanceteam.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy;  FreelanceTeam. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Bouton retour en haut -->
+    <button type="button" id="backToTop" class="back-to-top" aria-label="Retour en haut">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

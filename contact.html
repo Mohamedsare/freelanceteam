@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactez Freelance Team pour vos projets digitaux. Notre équipe est à votre écoute pour concrétiser vos idées.">
+    <title>Contact | Freelance Team</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="logo">Freelance<span>Team</span></a>
+            
+            <!-- Bouton menu burger -->
+            <button class="menu-toggle" aria-label="Ouvrir le menu">
+                <span class="hamburger"></span>
+            </button>
+            
+            <!-- Menu principal -->
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Menu mobile -->
+    <div class="mobile-menu">
+        <button class="close-menu" aria-label="Fermer le menu">
+            <i class="fas fa-times"></i>
+        </button>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+
+    <!-- Hero Section Contact -->
+    <section class="contact-hero">
+        <div class="contact-hero-content">
+            <h1>Contactez-nous</h1>
+            <p>Discutons de votre projet et voyons comment nous pouvons vous aider</p>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Informations de contact -->
+                <div class="contact-info">
+                    <h2>Nos Coordonnées</h2>
+                    <p>N'hésitez pas à nous contacter pour toute question ou demande de devis.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Adresse</h3>
+                                <p>Ouagadougou, Burkina Faso</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Téléphone</h3>
+                                <p>+226 64 71 20 44</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>contactbf@freelanceteam.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h3>Horaires</h3>
+                                <p>Lun - Sam: 8h - 20h</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <h3>Suivez-nous</h3>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Formulaire de contact -->
+                <div class="contact-form-container">
+                    <h2>Envoyez-nous un message</h2>
+                    <form action="https://formsubmit.co/mohamedsare078@gmail.com" method="POST" class="contact-form">
+                        <input type="hidden" name="_next" value="https://mohamedsare.github.io/freelanceteam/contact.html">
+                        <input type="hidden" name="_subject" value="Nouveau message de contact">
+                        <input type="hidden" name="_captcha" value="false">
+                        
+                        <div class="form-group">
+                            <label for="name">Nom complet</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Téléphone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Sujet</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="budget">Budget estimé</label>
+                            <select id="budget" name="budget">
+                                <option value="">Sélectionnez une option</option>
+                                <option value="< 75000 CFA">< 75000 CFA</option>
+                                <option value="75000 CFA - 150000 CFA">75000 CFA - 150000 CFA</option>
+                                <option value="150000 CFA - 300000 CFA">150000 CFA - 300000 CFA</option>
+                                <option value="> 300000 CFA">> 300000 CFA</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="deadline">Délai souhaité</label>
+                            <select id="deadline" name="deadline">
+                                <option value="">Sélectionnez une option</option>
+                                <option value="Urgent">Urgent</option>
+                                <option value="2-3 semaines">2-3 semaines</option>
+                                <option value="3-4 semaines">3-4 semaines</option>
+                                <option value="4-5 semaines">4-5 semaines</option>
+                                <option value="> 5 semaines">> Flexible</option>
+                            </select>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Carte Google Maps -->
+            <div class="map-container">
+                <h2>Notre Localisation</h2>
+                <div class="map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124958.73162351667!2d-1.681487!3d12.368446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe2e7c5a0c0c0c0c%3A0x0!2sOuagadougou%2C%20Burkina%20Faso!5e0!3m2!1sfr!2sfr!4v1647881234567!5m2!1sfr!2sfr" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>FreelanceTeam</h3>
+                <p>Une équipe de professionnels passionnés réunis pour offrir des solutions digitales sur mesure.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Liens rapides</h3>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="about.html">À propos</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-services">
+                <h3>Nos services</h3>
+                <ul>
+                    <li><a href="#">Développement Web</a></li>
+                    <li><a href="#">Design UI/UX</a></li>
+                    <li><a href="#">Marketing Digital</a></li>
+                    <li><a href="#">Stratégie SEO</a></li>
+                    <li><a href="#">Application Mobile</a></li>
+                    <li><a href="#">Consulting</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contactez-nous</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Ouagadougou, Burkina Faso</li>
+                    <li><i class="fas fa-phone"></i> +226 64 71 20 44</li>
+                    <li><i class="fas fa-envelope"></i> contactbf@freelanceteam.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span class="current-year"></span> FreelanceTeam. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Bouton retour en haut -->
+    <button type="button" id="backToTop" class="back-to-top" aria-label="Retour en haut">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html> 
